@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-26T14:39:33.782343+00:00",
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22621-SP0",
+  "opencv": "5.0.0",
+  "numpy": "2.5.2",
+  "torch": "2.14.1+cpu",
+  "config_sha256": "08eb77dce10fce74abac0b97425ae9e976ae6c6e40fa94f5fc1da7e38e86af8b",
+  "input_images": [
+    "board-01.png",
+    "board-02.png",
+    "board-03.png",
+    "board-04.png",
+    "board-05.png",
+    "board-06.png",
+    "board-07.png",
+    "board-08.png",
+    "board-09.png",
+    "board-10.png",
+    "board-11.png",
+    "board-12.png",
+    "board-13.png",
+    "board-14.png",
+    "board-15.png",
+    "board-16.png",
+    "board-17.png",
+    "board-18.png",
+    "board-19.png",
+    "board-20.png"
+  ],
+  "output_dir": "outputs"
+}

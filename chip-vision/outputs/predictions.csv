@@ -1,0 +1,21 @@
+﻿image,status,error,center_x_px,center_y_px,angle_deg,angle_axis_deg,long_px,short_px,pose_confidence,method,full_text,ocr_confidence
+board-01.png,ok,,308.002,245.249,-0.085,179.915,334.007,136.497,1.0,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8782
+board-02.png,ok,,301.96,241.456,2.935,2.935,334.012,136.428,0.9997,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8879
+board-03.png,ok,,417.543,189.097,25.236,25.236,332.627,136.125,0.9961,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8601
+board-04.png,ok,,394.59,168.544,36.169,36.169,332.991,136.075,0.9965,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.9034
+board-05.png,ok,,237.109,291.079,45.005,45.005,332.873,136.2,0.9968,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7742
+board-06.png,ok,,292.575,242.699,56.33,56.33,333.673,136.214,0.9982,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7298
+board-07.png,ok,,303.634,194.467,66.171,66.171,333.681,136.03,0.9975,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7732
+board-08.png,ok,,160.703,282.712,79.638,79.638,333.622,134.87,0.9924,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7891
+board-09.png,ok,,272.061,252.19,89.979,89.979,333.688,136.067,0.9976,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8597
+board-10.png,ok,,348.16,258.904,-73.904,106.096,334.206,136.5,0.9997,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8392
+board-11.png,ok,,247.328,258.632,-64.313,115.687,333.681,135.884,0.9969,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.6009
+board-12.png,ok,,249.902,237.043,-51.916,128.084,333.468,136.003,0.997,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7433
+board-13.png,ok,,250.123,207.277,-42.705,137.295,333.049,135.651,0.9948,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7085
+board-14.png,ok,,251.412,262.84,-32.558,147.442,333.133,136.102,0.9968,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7279
+board-15.png,ok,,292.889,220.592,-24.451,155.549,333.744,136.549,0.9997,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7925
+board-16.png,ok,,361.011,166.816,-14.321,165.679,334.512,136.497,0.9991,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.9201
+board-17.png,ok,,356.79,190.916,-2.572,177.428,334.618,136.583,0.9986,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8131
+board-18.png,ok,,360.05,242.341,11.328,11.328,334.485,136.579,0.9988,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8994
+board-19.png,ok,,404.365,293.423,19.439,19.439,334.091,135.981,0.998,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.8285
+board-20.png,ok,,327.19,297.708,27.853,27.853,333.675,136.423,0.9991,sift_reference_homography,SANYO | LC3664NML-10 | JAPAN | 2CB3,0.7225

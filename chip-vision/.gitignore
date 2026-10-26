@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated and exploratory artifacts
+data/pseudo/
+outputs/canonical/
+outputs/masks/
+outputs/ocr_input/
+outputs_ocr_test/
+outputs_v2/
+grid.jpg
+chip_ref_zoom.png
+ref_poly_check.png
+
+# Model weights are downloaded or trained locally
+weights/*
+!weights/.gitkeep

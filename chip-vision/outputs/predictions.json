@@ -1,0 +1,4825 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-26T14:39:33.772341+00:00",
+  "config": "C:\\ALL profile undergraduate\\major courses\\Machine vision\\期末小作业\\configs\\default.yaml",
+  "images": [
+    {
+      "image": "board-01.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          308.002,
+          245.249
+        ],
+        "angle_deg": -0.085,
+        "angle_axis_deg": 179.915,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 334.007,
+          "short": 136.497
+        },
+        "corners_px": [
+          [
+            141.002,
+            176.004
+          ],
+          [
+            475.0,
+            177.997
+          ],
+          [
+            475.006,
+            312.995
+          ],
+          [
+            140.998,
+            314.0
+          ]
+        ],
+        "bbox_px": [
+          140.0,
+          176.0,
+          476.0,
+          315.0
+        ],
+        "mask_polygon_px": [
+          [
+            141.002,
+            176.004
+          ],
+          [
+            475.0,
+            177.997
+          ],
+          [
+            475.006,
+            312.995
+          ],
+          [
+            140.998,
+            314.0
+          ]
+        ],
+        "confidence": 1.0,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 399,
+          "inliers": 391,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.9999703792971912,
+              -6.515916367735856e-05,
+              120.00350346345839
+            ],
+            [
+              -2.712364830501315e-05,
+              0.9998890525130258,
+              145.00675093908396
+            ],
+            [
+              -3.2030269809282435e-08,
+              -2.3857608420050624e-07,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9383,
+            "polygon_px": [
+              [
+                231.996,
+                199.194
+              ],
+              [
+                361.289,
+                199.774
+              ],
+              [
+                361.29,
+                236.13
+              ],
+              [
+                231.995,
+                235.861
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML -10",
+            "corrected": true,
+            "confidence": 0.6635,
+            "polygon_px": [
+              [
+                183.678,
+                232.515
+              ],
+              [
+                399.538,
+                233.01
+              ],
+              [
+                399.539,
+                263.729
+              ],
+              [
+                183.677,
+                263.672
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9997,
+            "polygon_px": [
+              [
+                193.129,
+                256.755
+              ],
+              [
+                277.44,
+                256.815
+              ],
+              [
+                277.44,
+                285.202
+              ],
+              [
+                193.129,
+                285.299
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.9112,
+            "polygon_px": [
+              [
+                324.241,
+                255.563
+              ],
+              [
+                400.458,
+                255.624
+              ],
+              [
+                400.459,
+                286.341
+              ],
+              [
+                324.242,
+                286.435
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8782,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3864NML -10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-02.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          301.96,
+          241.456
+        ],
+        "angle_deg": 2.935,
+        "angle_axis_deg": 2.935,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 334.012,
+          "short": 136.428
+        },
+        "corners_px": [
+          [
+            131.575,
+            181.173
+          ],
+          [
+            465.17,
+            165.5
+          ],
+          [
+            472.321,
+            300.311
+          ],
+          [
+            138.774,
+            318.839
+          ]
+        ],
+        "bbox_px": [
+          131.0,
+          165.0,
+          473.0,
+          319.0
+        ],
+        "mask_polygon_px": [
+          [
+            131.575,
+            181.173
+          ],
+          [
+            465.17,
+            165.5
+          ],
+          [
+            472.321,
+            300.311
+          ],
+          [
+            138.774,
+            318.839
+          ]
+        ],
+        "confidence": 0.9997,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 278,
+          "inliers": 258,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.99686624301353,
+              0.05184835871483939,
+              109.01565799485569
+            ],
+            [
+              -0.05341080915411767,
+              0.9967327268355516,
+              151.37109106451763
+            ],
+            [
+              -3.155164375354768e-06,
+              -2.243171892414282e-06,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.6361,
+            "polygon_px": [
+              [
+                223.084,
+                199.092
+              ],
+              [
+                352.678,
+                192.824
+              ],
+              [
+                354.628,
+                229.754
+              ],
+              [
+                225.039,
+                236.324
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.9732,
+            "polygon_px": [
+              [
+                184.413,
+                234.922
+              ],
+              [
+                392.664,
+                224.409
+              ],
+              [
+                394.285,
+                255.079
+              ],
+              [
+                186.041,
+                265.996
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9997,
+            "polygon_px": [
+              [
+                188.789,
+                259.794
+              ],
+              [
+                271.309,
+                255.499
+              ],
+              [
+                272.731,
+                282.546
+              ],
+              [
+                190.214,
+                286.981
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.9427,
+            "polygon_px": [
+              [
+                318.876,
+                251.092
+              ],
+              [
+                394.098,
+                247.186
+              ],
+              [
+                395.664,
+                276.794
+              ],
+              [
+                320.444,
+                280.84
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8879,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-03.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          417.543,
+          189.097
+        ],
+        "angle_deg": 25.236,
+        "angle_axis_deg": 25.236,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 332.627,
+          "short": 136.125
+        },
+        "corners_px": [
+          [
+            237.23,
+            197.078
+          ],
+          [
+            539.465,
+            58.149
+          ],
+          [
+            596.489,
+            178.235
+          ],
+          [
+            296.99,
+            322.923
+          ]
+        ],
+        "bbox_px": [
+          237.0,
+          58.0,
+          597.0,
+          323.0
+        ],
+        "mask_polygon_px": [
+          [
+            237.23,
+            197.078
+          ],
+          [
+            539.465,
+            58.149
+          ],
+          [
+            596.489,
+            178.235
+          ],
+          [
+            296.99,
+            322.923
+          ]
+        ],
+        "confidence": 0.9961,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 116,
+          "inliers": 86,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.9444766643608093,
+              0.4337337012882592,
+              204.32669249668513
+            ],
+            [
+              -0.4176924393754962,
+              0.9133758757151845,
+              177.84789656572235
+            ],
+            [
+              7.552370970464691e-05,
+              2.2256694151185343e-08,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9951,
+            "polygon_px": [
+              [
+                332.835,
+                178.352
+              ],
+              [
+                449.562,
+                124.243
+              ],
+              [
+                465.045,
+                156.849
+              ],
+              [
+                348.6,
+                211.553
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "1LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.8005,
+            "polygon_px": [
+              [
+                302.962,
+                228.665
+              ],
+              [
+                497.497,
+                137.404
+              ],
+              [
+                510.723,
+                165.256
+              ],
+              [
+                316.594,
+                257.371
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9995,
+            "polygon_px": [
+              [
+                322.32,
+                245.993
+              ],
+              [
+                399.18,
+                209.625
+              ],
+              [
+                411.619,
+                235.819
+              ],
+              [
+                334.907,
+                272.5
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.6455,
+            "polygon_px": [
+              [
+                439.553,
+                190.285
+              ],
+              [
+                507.983,
+                157.908
+              ],
+              [
+                520.665,
+                184.614
+              ],
+              [
+                452.371,
+                217.279
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8601,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "1LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-04.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          394.59,
+          168.544
+        ],
+        "angle_deg": 36.169,
+        "angle_axis_deg": 36.169,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 332.991,
+          "short": 136.075
+        },
+        "corners_px": [
+          [
+            218.966,
+            210.613
+          ],
+          [
+            489.348,
+            17.037
+          ],
+          [
+            568.634,
+            123.539
+          ],
+          [
+            301.413,
+            322.989
+          ]
+        ],
+        "bbox_px": [
+          218.0,
+          17.0,
+          569.0,
+          323.0
+        ],
+        "mask_polygon_px": [
+          [
+            218.966,
+            210.613
+          ],
+          [
+            489.348,
+            17.037
+          ],
+          [
+            568.634,
+            123.539
+          ],
+          [
+            301.413,
+            322.989
+          ]
+        ],
+        "confidence": 0.9965,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 123,
+          "inliers": 83,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.8462485599853441,
+              0.5916849952585569,
+              183.0798784006497
+            ],
+            [
+              -0.5836378359196617,
+              0.8083347367573559,
+              198.02965168593016
+            ],
+            [
+              8.06879700151986e-05,
+              -2.115240543186063e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANO",
+            "corrected": true,
+            "confidence": 0.9888,
+            "polygon_px": [
+              [
+                308.711,
+                173.947
+              ],
+              [
+                412.933,
+                98.819
+              ],
+              [
+                434.509,
+                127.942
+              ],
+              [
+                330.614,
+                203.678
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.7947,
+            "polygon_px": [
+              [
+                288.902,
+                230.315
+              ],
+              [
+                463.553,
+                103.116
+              ],
+              [
+                481.16,
+                126.841
+              ],
+              [
+                306.96,
+                254.88
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9998,
+            "polygon_px": [
+              [
+                311.99,
+                243.083
+              ],
+              [
+                378.81,
+                194.067
+              ],
+              [
+                395.285,
+                216.386
+              ],
+              [
+                328.624,
+                265.7
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.8305,
+            "polygon_px": [
+              [
+                415.513,
+                164.76
+              ],
+              [
+                476.981,
+                119.696
+              ],
+              [
+                495.357,
+                144.457
+              ],
+              [
+                434.057,
+                189.83
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.9034,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "SANO",
+              "corrected": "SANYO",
+              "distance": 1,
+              "similarity": 0.8
+            },
+            {
+              "raw": "LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-05.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          237.109,
+          291.079
+        ],
+        "angle_deg": 45.005,
+        "angle_axis_deg": 45.005,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 332.873,
+          "short": 136.2
+        },
+        "corners_px": [
+          [
+            71.239,
+            360.448
+          ],
+          [
+            306.425,
+            125.649
+          ],
+          [
+            403.148,
+            221.111
+          ],
+          [
+            167.623,
+            457.108
+          ]
+        ],
+        "bbox_px": [
+          71.0,
+          125.0,
+          404.0,
+          458.0
+        ],
+        "mask_polygon_px": [
+          [
+            71.239,
+            360.448
+          ],
+          [
+            306.425,
+            125.649
+          ],
+          [
+            403.148,
+            221.111
+          ],
+          [
+            167.623,
+            457.108
+          ]
+        ],
+        "confidence": 0.9968,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 116,
+          "inliers": 92,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.68279871861364,
+              0.6931902591488088,
+              35.28193667425327
+            ],
+            [
+              -0.7123603714014606,
+              0.6883393158839088,
+              353.41276673592057
+            ],
+            [
+              -5.1803342193345835e-05,
+              -2.3664067253126942e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9978,
+            "polygon_px": [
+              [
+                149.411,
+                313.822
+              ],
+              [
+                240.527,
+                222.802
+              ],
+              [
+                266.315,
+                248.396
+              ],
+              [
+                175.164,
+                339.54
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "ALC3664NML-I0",
+            "corrected": true,
+            "confidence": 0.1855,
+            "polygon_px": [
+              [
+                139.355,
+                371.101
+              ],
+              [
+                291.015,
+                219.465
+              ],
+              [
+                312.292,
+                240.543
+              ],
+              [
+                160.584,
+                392.348
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9994,
+            "polygon_px": [
+              [
+                164.343,
+                381.3
+              ],
+              [
+                222.813,
+                322.8
+              ],
+              [
+                241.351,
+                341.271
+              ],
+              [
+                182.864,
+                399.829
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2C83",
+            "corrected": true,
+            "confidence": 0.9141,
+            "polygon_px": [
+              [
+                253.77,
+                288.493
+              ],
+              [
+                307.46,
+                234.78
+              ],
+              [
+                328.76,
+                255.879
+              ],
+              [
+                275.053,
+                309.653
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7742,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "ALC3664NML-I0",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2C83",
+              "corrected": "2CB3",
+              "distance": 1,
+              "similarity": 0.75
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-06.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          292.575,
+          242.699
+        ],
+        "angle_deg": 56.33,
+        "angle_axis_deg": 56.33,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.673,
+          "short": 136.214
+        },
+        "corners_px": [
+          [
+            142.829,
+            343.397
+          ],
+          [
+            328.829,
+            66.676
+          ],
+          [
+            441.309,
+            141.025
+          ],
+          [
+            257.334,
+            419.696
+          ]
+        ],
+        "bbox_px": [
+          142.0,
+          66.0,
+          442.0,
+          420.0
+        ],
+        "mask_polygon_px": [
+          [
+            142.829,
+            343.397
+          ],
+          [
+            328.829,
+            66.676
+          ],
+          [
+            441.309,
+            141.025
+          ],
+          [
+            257.334,
+            419.696
+          ]
+        ],
+        "confidence": 0.9982,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 155,
+          "inliers": 133,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.5500266941992877,
+              0.8265221053093733,
+              105.59259045266059
+            ],
+            [
+              -0.8317541725702758,
+              0.5480001797151177,
+              343.7223322637706
+            ],
+            [
+              -4.982228665660305e-06,
+              -1.1065889211291432e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANO",
+            "corrected": true,
+            "confidence": 0.9879,
+            "polygon_px": [
+              [
+                212.085,
+                279.651
+              ],
+              [
+                283.433,
+                173.198
+              ],
+              [
+                314.199,
+                193.59
+              ],
+              [
+                243.062,
+                300.247
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.3938,
+            "polygon_px": [
+              [
+                212.471,
+                339.501
+              ],
+              [
+                332.523,
+                159.591
+              ],
+              [
+                358.096,
+                176.526
+              ],
+              [
+                238.341,
+                356.722
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9994,
+            "polygon_px": [
+              [
+                238.827,
+                344.298
+              ],
+              [
+                285.831,
+                273.631
+              ],
+              [
+                308.363,
+                288.596
+              ],
+              [
+                261.462,
+                359.361
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2C83",
+            "corrected": true,
+            "confidence": 0.5382,
+            "polygon_px": [
+              [
+                309.96,
+                234.649
+              ],
+              [
+                351.905,
+                171.599
+              ],
+              [
+                376.779,
+                188.07
+              ],
+              [
+                334.935,
+                251.218
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7298,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "SANO",
+              "corrected": "SANYO",
+              "distance": 1,
+              "similarity": 0.8
+            },
+            {
+              "raw": "LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2C83",
+              "corrected": "2CB3",
+              "distance": 1,
+              "similarity": 0.75
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-07.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          303.634,
+          194.467
+        ],
+        "angle_deg": 66.171,
+        "angle_axis_deg": 66.171,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.681,
+          "short": 136.03
+        },
+        "corners_px": [
+          [
+            172.994,
+            319.139
+          ],
+          [
+            309.649,
+            15.277
+          ],
+          [
+            432.422,
+            68.425
+          ],
+          [
+            299.473,
+            375.027
+          ]
+        ],
+        "bbox_px": [
+          172.0,
+          15.0,
+          433.0,
+          376.0
+        ],
+        "mask_polygon_px": [
+          [
+            172.994,
+            319.139
+          ],
+          [
+            309.649,
+            15.277
+          ],
+          [
+            432.422,
+            68.425
+          ],
+          [
+            299.473,
+            375.027
+          ]
+        ],
+        "confidence": 0.9975,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 138,
+          "inliers": 116,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.41398611596023016,
+              0.9097467995448955,
+              136.09798830206532
+            ],
+            [
+              -0.9116334629683067,
+              0.3965135623335162,
+              325.99126372020237
+            ],
+            [
+              3.335476854248907e-05,
+              -2.2594160440900194e-05,
+              0.9999999999999999
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANO",
+            "corrected": true,
+            "confidence": 0.9777,
+            "polygon_px": [
+              [
+                230.882,
+                243.861
+              ],
+              [
+                283.49,
+                126.205
+              ],
+              [
+                316.989,
+                140.808
+              ],
+              [
+                264.767,
+                258.75
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3664NML-0",
+            "corrected": true,
+            "confidence": 0.4844,
+            "polygon_px": [
+              [
+                241.933,
+                301.769
+              ],
+              [
+                329.457,
+                104.279
+              ],
+              [
+                357.444,
+                116.451
+              ],
+              [
+                270.463,
+                314.342
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9901,
+            "polygon_px": [
+              [
+                268.831,
+                301.922
+              ],
+              [
+                302.461,
+                225.542
+              ],
+              [
+                326.849,
+                236.228
+              ],
+              [
+                293.401,
+                312.742
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2C83",
+            "corrected": true,
+            "confidence": 0.6405,
+            "polygon_px": [
+              [
+                319.941,
+                182.129
+              ],
+              [
+                350.341,
+                113.113
+              ],
+              [
+                377.578,
+                124.957
+              ],
+              [
+                347.363,
+                194.109
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7732,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "SANO",
+              "corrected": "SANYO",
+              "distance": 1,
+              "similarity": 0.8
+            },
+            {
+              "raw": "LC3664NML-0",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2C83",
+              "corrected": "2CB3",
+              "distance": 1,
+              "similarity": 0.75
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-08.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          160.703,
+          282.712
+        ],
+        "angle_deg": 79.638,
+        "angle_axis_deg": 79.638,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.622,
+          "short": 134.87
+        },
+        "corners_px": [
+          [
+            64.279,
+            434.174
+          ],
+          [
+            124.166,
+            108.809
+          ],
+          [
+            257.246,
+            128.435
+          ],
+          [
+            197.119,
+            459.431
+          ]
+        ],
+        "bbox_px": [
+          64.0,
+          108.0,
+          258.0,
+          460.0
+        ],
+        "mask_polygon_px": [
+          [
+            64.279,
+            434.174
+          ],
+          [
+            124.166,
+            108.809
+          ],
+          [
+            257.246,
+            128.435
+          ],
+          [
+            197.119,
+            459.431
+          ]
+        ],
+        "confidence": 0.9924,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 168,
+          "inliers": 118,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              0.1668875087417266,
+              0.9343564145324149,
+              31.505990592516742
+            ],
+            [
+              -0.9755398534857425,
+              0.1269131394112258,
+              448.67535887340557
+            ],
+            [
+              -4.737590797121404e-05,
+              -0.000120253369376585,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9469,
+            "polygon_px": [
+              [
+                100.137,
+                350.336
+              ],
+              [
+                123.474,
+                223.299
+              ],
+              [
+                162.314,
+                229.591
+              ],
+              [
+                138.949,
+                357.269
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3664NM-1Q",
+            "corrected": true,
+            "confidence": 0.5732,
+            "polygon_px": [
+              [
+                124.323,
+                394.833
+              ],
+              [
+                161.724,
+                190.606
+              ],
+              [
+                196.885,
+                196.13
+              ],
+              [
+                159.444,
+                401.285
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9992,
+            "polygon_px": [
+              [
+                153.192,
+                397.523
+              ],
+              [
+                168.363,
+                314.446
+              ],
+              [
+                196.145,
+                319.24
+              ],
+              [
+                180.96,
+                402.616
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.6368,
+            "polygon_px": [
+              [
+                171.57,
+                269.676
+              ],
+              [
+                185.423,
+                193.86
+              ],
+              [
+                215.933,
+                198.651
+              ],
+              [
+                202.068,
+                274.765
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7891,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3664NM-1Q",
+              "corrected": "LC3664NML-10",
+              "distance": 2,
+              "similarity": 0.8333
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-09.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          272.061,
+          252.19
+        ],
+        "angle_deg": 89.979,
+        "angle_axis_deg": 89.979,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.688,
+          "short": 136.067
+        },
+        "corners_px": [
+          [
+            203.247,
+            418.868
+          ],
+          [
+            204.809,
+            85.86
+          ],
+          [
+            339.43,
+            84.836
+          ],
+          [
+            340.756,
+            419.198
+          ]
+        ],
+        "bbox_px": [
+          203.0,
+          84.0,
+          341.0,
+          420.0
+        ],
+        "mask_polygon_px": [
+          [
+            203.247,
+            418.868
+          ],
+          [
+            204.809,
+            85.86
+          ],
+          [
+            339.43,
+            84.836
+          ],
+          [
+            340.756,
+            419.198
+          ]
+        ],
+        "confidence": 0.9976,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 156,
+          "inliers": 131,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.0017127000528527876,
+              0.9853283961644934,
+              172.54115309500173
+            ],
+            [
+              -0.9962062635441432,
+              -0.010097268706802349,
+              439.6954651420023
+            ],
+            [
+              -2.1836947494854992e-06,
+              -2.9780118482065277e-05,
+              0.9999999999999999
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9831,
+            "polygon_px": [
+              [
+                224.881,
+                328.188
+              ],
+              [
+                225.314,
+                198.743
+              ],
+              [
+                262.35,
+                198.587
+              ],
+              [
+                262.223,
+                328.176
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "4LC3864NML-1Q",
+            "corrected": true,
+            "confidence": 0.6176,
+            "polygon_px": [
+              [
+                258.082,
+                376.172
+              ],
+              [
+                258.35,
+                159.939
+              ],
+              [
+                289.831,
+                159.77
+              ],
+              [
+                289.998,
+                376.207
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9972,
+            "polygon_px": [
+              [
+                283.52,
+                365.58
+              ],
+              [
+                283.489,
+                281.596
+              ],
+              [
+                310.107,
+                281.55
+              ],
+              [
+                310.28,
+                365.601
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.8408,
+            "polygon_px": [
+              [
+                280.906,
+                235.768
+              ],
+              [
+                280.891,
+                159.818
+              ],
+              [
+                310.922,
+                159.656
+              ],
+              [
+                311.083,
+                235.674
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8597,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "4LC3864NML-1Q",
+              "corrected": "LC3664NML-10",
+              "distance": 2,
+              "similarity": 0.8333
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-10.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          348.16,
+          258.904
+        ],
+        "angle_deg": -73.904,
+        "angle_axis_deg": 106.096,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 334.206,
+          "short": 136.5
+        },
+        "corners_px": [
+          [
+            328.266,
+            438.584
+          ],
+          [
+            236.968,
+            117.288
+          ],
+          [
+            366.694,
+            79.42
+          ],
+          [
+            460.713,
+            400.326
+          ]
+        ],
+        "bbox_px": [
+          236.0,
+          79.0,
+          461.0,
+          439.0
+        ],
+        "mask_polygon_px": [
+          [
+            328.266,
+            438.584
+          ],
+          [
+            236.968,
+            117.288
+          ],
+          [
+            366.694,
+            79.42
+          ],
+          [
+            460.713,
+            400.326
+          ]
+        ],
+        "confidence": 0.9997,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 111,
+          "inliers": 84,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.28041228935507884,
+              0.955503081720426,
+              304.40674568281844
+            ],
+            [
+              -0.9606281084070621,
+              -0.2804906828670843,
+              467.2815567243977
+            ],
+            [
+              -6.069568953538158e-06,
+              -8.422997983309787e-06,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.8931,
+            "polygon_px": [
+              [
+                325.709,
+                344.482
+              ],
+              [
+                290.258,
+                220.374
+              ],
+              [
+                324.754,
+                210.34
+              ],
+              [
+                360.483,
+                334.408
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-1O",
+            "corrected": true,
+            "confidence": 0.6325,
+            "polygon_px": [
+              [
+                370.368,
+                382.794
+              ],
+              [
+                310.34,
+                174.166
+              ],
+              [
+                340.671,
+                165.333
+              ],
+              [
+                401.111,
+                373.902
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.8587,
+            "polygon_px": [
+              [
+                392.208,
+                364.925
+              ],
+              [
+                368.583,
+                283.287
+              ],
+              [
+                394.611,
+                275.736
+              ],
+              [
+                418.374,
+                357.354
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.9727,
+            "polygon_px": [
+              [
+                353.548,
+                240.592
+              ],
+              [
+                332.472,
+                167.721
+              ],
+              [
+                361.995,
+                159.123
+              ],
+              [
+                383.211,
+                231.974
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8392,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3864NML-1O",
+              "corrected": "LC3664NML-10",
+              "distance": 2,
+              "similarity": 0.8333
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-11.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          247.328,
+          258.632
+        ],
+        "angle_deg": -64.313,
+        "angle_axis_deg": 115.687,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.681,
+          "short": 135.884
+        },
+        "corners_px": [
+          [
+            257.502,
+            438.786
+          ],
+          [
+            114.928,
+            137.844
+          ],
+          [
+            235.092,
+            78.721
+          ],
+          [
+            381.792,
+            379.175
+          ]
+        ],
+        "bbox_px": [
+          114.0,
+          78.0,
+          382.0,
+          439.0
+        ],
+        "mask_polygon_px": [
+          [
+            257.502,
+            438.786
+          ],
+          [
+            114.928,
+            137.844
+          ],
+          [
+            235.092,
+            78.721
+          ],
+          [
+            381.792,
+            379.175
+          ]
+        ],
+        "confidence": 0.9969,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 117,
+          "inliers": 95,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.42960247775635035,
+              0.8887695641518153,
+              238.84512944139507
+            ],
+            [
+              -0.8950763077484482,
+              -0.44311591866905176,
+              471.1037106647113
+            ],
+            [
+              2.0870637514351898e-05,
+              -2.9973121333208172e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.8169,
+            "polygon_px": [
+              [
+                237.072,
+                346.615
+              ],
+              [
+                181.518,
+                229.899
+              ],
+              [
+                214.715,
+                213.705
+              ],
+              [
+                270.705,
+                330.369
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "4LC3864NML.10",
+            "corrected": true,
+            "confidence": 0.1892,
+            "polygon_px": [
+              [
+                287.597,
+                376.536
+              ],
+              [
+                193.857,
+                181.011
+              ],
+              [
+                222.033,
+                167.225
+              ],
+              [
+                316.397,
+                362.677
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9982,
+            "polygon_px": [
+              [
+                306.032,
+                356.605
+              ],
+              [
+                269.134,
+                280.068
+              ],
+              [
+                294.999,
+                267.531
+              ],
+              [
+                332.119,
+                344.042
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "20B3",
+            "corrected": true,
+            "confidence": 0.3993,
+            "polygon_px": [
+              [
+                247.671,
+                238.496
+              ],
+              [
+                215.083,
+                170.88
+              ],
+              [
+                241.391,
+                158.009
+              ],
+              [
+                274.181,
+                225.6
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.6009,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "4LC3864NML.10",
+              "corrected": "LC3664NML-10",
+              "distance": 2,
+              "similarity": 0.8333
+            },
+            {
+              "raw": "20B3",
+              "corrected": "2CB3",
+              "distance": 1,
+              "similarity": 0.75
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-12.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          249.902,
+          237.043
+        ],
+        "angle_deg": -51.916,
+        "angle_axis_deg": 128.084,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.468,
+          "short": 136.003
+        },
+        "corners_px": [
+          [
+            298.18,
+            411.064
+          ],
+          [
+            94.944,
+            147.377
+          ],
+          [
+            199.174,
+            64.247
+          ],
+          [
+            407.312,
+            325.484
+          ]
+        ],
+        "bbox_px": [
+          94.0,
+          64.0,
+          408.0,
+          412.0
+        ],
+        "mask_polygon_px": [
+          [
+            298.18,
+            411.064
+          ],
+          [
+            94.944,
+            147.377
+          ],
+          [
+            199.174,
+            64.247
+          ],
+          [
+            407.312,
+            325.484
+          ]
+        ],
+        "confidence": 0.997,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 104,
+          "inliers": 72,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.608375095309652,
+              0.7809829220995184,
+              286.847557575343
+            ],
+            [
+              -0.7782231359980456,
+              -0.6284172930832338,
+              447.02735954353614
+            ],
+            [
+              5.28251624180112e-05,
+              -2.4780702301971725e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9096,
+            "polygon_px": [
+              [
+                258.328,
+                323.424
+              ],
+              [
+                179.714,
+                221.968
+              ],
+              [
+                208.303,
+                199.294
+              ],
+              [
+                287.428,
+                300.496
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.5577,
+            "polygon_px": [
+              [
+                314.806,
+                341.85
+              ],
+              [
+                181.435,
+                171.105
+              ],
+              [
+                205.609,
+                151.896
+              ],
+              [
+                339.711,
+                322.276
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9993,
+            "polygon_px": [
+              [
+                327.461,
+                317.93
+              ],
+              [
+                274.93,
+                251.077
+              ],
+              [
+                296.167,
+                234.304
+              ],
+              [
+                348.946,
+                301.034
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.5063,
+            "polygon_px": [
+              [
+                245.787,
+                215.715
+              ],
+              [
+                199.619,
+                156.945
+              ],
+              [
+                222.494,
+                138.769
+              ],
+              [
+                268.9,
+                197.418
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7433,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-13.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          250.123,
+          207.277
+        ],
+        "angle_deg": -42.705,
+        "angle_axis_deg": 137.295,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.049,
+          "short": 135.651
+        },
+        "corners_px": [
+          [
+            325.277,
+            371.442
+          ],
+          [
+            83.432,
+            143.221
+          ],
+          [
+            172.083,
+            45.468
+          ],
+          [
+            419.699,
+            268.976
+          ]
+        ],
+        "bbox_px": [
+          83.0,
+          45.0,
+          420.0,
+          372.0
+        ],
+        "mask_polygon_px": [
+          [
+            325.277,
+            371.442
+          ],
+          [
+            83.432,
+            143.221
+          ],
+          [
+            172.083,
+            45.468
+          ],
+          [
+            419.699,
+            268.976
+          ]
+        ],
+        "confidence": 0.9948,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 82,
+          "inliers": 52,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.7208652269739789,
+              0.6750005429887608,
+              319.921105565383
+            ],
+            [
+              -0.6655985036994384,
+              -0.7499815087550954,
+              409.1612136605095
+            ],
+            [
+              9.868913620544322e-05,
+              -2.412383196845567e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.8612,
+            "polygon_px": [
+              [
+                271.658,
+                290.96
+              ],
+              [
+                177.534,
+                202.76
+              ],
+              [
+                202.273,
+                175.625
+              ],
+              [
+                297.008,
+                263.326
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3664NML-1O",
+            "corrected": true,
+            "confidence": 0.5158,
+            "polygon_px": [
+              [
+                331.055,
+                298.104
+              ],
+              [
+                172.982,
+                151.654
+              ],
+              [
+                192.489,
+                130.218
+              ],
+              [
+                351.374,
+                276.006
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9975,
+            "polygon_px": [
+              [
+                339.295,
+                273.475
+              ],
+              [
+                277.096,
+                216.287
+              ],
+              [
+                295.775,
+                195.88
+              ],
+              [
+                358.272,
+                252.826
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.4596,
+            "polygon_px": [
+              [
+                242.732,
+                186.714
+              ],
+              [
+                187.066,
+                135.508
+              ],
+              [
+                207.442,
+                113.117
+              ],
+              [
+                263.404,
+                164.08
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7085,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3664NML-1O",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-14.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          251.412,
+          262.84
+        ],
+        "angle_deg": -32.558,
+        "angle_axis_deg": 147.442,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.133,
+          "short": 136.102
+        },
+        "corners_px": [
+          [
+            354.488,
+            410.936
+          ],
+          [
+            75.721,
+            229.853
+          ],
+          [
+            146.328,
+            116.56
+          ],
+          [
+            429.111,
+            294.01
+          ]
+        ],
+        "bbox_px": [
+          75.0,
+          116.0,
+          430.0,
+          411.0
+        ],
+        "mask_polygon_px": [
+          [
+            354.488,
+            410.936
+          ],
+          [
+            75.721,
+            229.853
+          ],
+          [
+            146.328,
+            116.56
+          ],
+          [
+            429.111,
+            294.01
+          ]
+        ],
+        "confidence": 0.9968,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 91,
+          "inliers": 71,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.8340865443474668,
+              0.5269174510529557,
+              355.68242271549326
+            ],
+            [
+              -0.5257282652823166,
+              -0.8568139028715894,
+              448.55343121900125
+            ],
+            [
+              4.9468900401108105e-05,
+              -3.2278872967267184e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9043,
+            "polygon_px": [
+              [
+                288.39,
+                341.851
+              ],
+              [
+                180.336,
+                272.045
+              ],
+              [
+                199.531,
+                241.491
+              ],
+              [
+                307.998,
+                310.923
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "4LC3864NML10",
+            "corrected": true,
+            "confidence": 0.441,
+            "polygon_px": [
+              [
+                347.183,
+                340.382
+              ],
+              [
+                165.165,
+                223.762
+              ],
+              [
+                181.35,
+                197.927
+              ],
+              [
+                363.96,
+                314.014
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9995,
+            "polygon_px": [
+              [
+                351.326,
+                313.437
+              ],
+              [
+                280.888,
+                268.588
+              ],
+              [
+                295.132,
+                246.049
+              ],
+              [
+                365.767,
+                290.721
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2CB3",
+            "corrected": false,
+            "confidence": 0.5665,
+            "polygon_px": [
+              [
+                240.917,
+                244.405
+              ],
+              [
+                177.143,
+                203.788
+              ],
+              [
+                192.675,
+                178.994
+              ],
+              [
+                256.646,
+                219.431
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7279,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "4LC3864NML10",
+              "corrected": "LC3664NML-10",
+              "distance": 2,
+              "similarity": 0.8333
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-15.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          292.889,
+          220.592
+        ],
+        "angle_deg": -24.451,
+        "angle_axis_deg": 155.549,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.744,
+          "short": 136.549
+        },
+        "corners_px": [
+          [
+            416.014,
+            352.988
+          ],
+          [
+            113.515,
+            212.621
+          ],
+          [
+            168.458,
+            90.43
+          ],
+          [
+            473.57,
+            226.33
+          ]
+        ],
+        "bbox_px": [
+          113.0,
+          90.0,
+          474.0,
+          353.0
+        ],
+        "mask_polygon_px": [
+          [
+            416.014,
+            352.988
+          ],
+          [
+            113.515,
+            212.621
+          ],
+          [
+            168.458,
+            90.43
+          ],
+          [
+            473.57,
+            226.33
+          ]
+        ],
+        "confidence": 0.9997,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 102,
+          "inliers": 73,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.9033370835189141,
+              0.4116607196598551,
+              422.4822958362109
+            ],
+            [
+              -0.4049326665542386,
+              -0.9210923228360028,
+              390.26561911084076
+            ],
+            [
+              4.744791394339957e-05,
+              -1.1979256652293785e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9805,
+            "polygon_px": [
+              [
+                341.221,
+                292.543
+              ],
+              [
+                224.071,
+                238.554
+              ],
+              [
+                238.804,
+                205.904
+              ],
+              [
+                356.221,
+                259.437
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "ALC3864NML-10",
+            "corrected": true,
+            "confidence": 0.5584,
+            "polygon_px": [
+              [
+                400.069,
+                283.016
+              ],
+              [
+                202.556,
+                192.878
+              ],
+              [
+                215.213,
+                164.795
+              ],
+              [
+                413.114,
+                254.269
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9995,
+            "polygon_px": [
+              [
+                400.215,
+                257.27
+              ],
+              [
+                321.906,
+                221.78
+              ],
+              [
+                334.341,
+                194.294
+              ],
+              [
+                412.799,
+                229.531
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.6316,
+            "polygon_px": [
+              [
+                280.726,
+                203.823
+              ],
+              [
+                211.306,
+                172.356
+              ],
+              [
+                223.882,
+                144.453
+              ],
+              [
+                293.436,
+                175.689
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7925,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "ALC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-16.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          361.011,
+          166.816
+        ],
+        "angle_deg": -14.321,
+        "angle_axis_deg": 165.679,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 334.512,
+          "short": 136.497
+        },
+        "corners_px": [
+          [
+            506.101,
+            275.154
+          ],
+          [
+            182.309,
+            190.772
+          ],
+          [
+            215.599,
+            60.119
+          ],
+          [
+            540.034,
+            141.22
+          ]
+        ],
+        "bbox_px": [
+          182.0,
+          60.0,
+          541.0,
+          276.0
+        ],
+        "mask_polygon_px": [
+          [
+            506.101,
+            275.154
+          ],
+          [
+            182.309,
+            190.772
+          ],
+          [
+            215.599,
+            60.119
+          ],
+          [
+            540.034,
+            141.22
+          ]
+        ],
+        "confidence": 0.9991,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 102,
+          "inliers": 65,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.9698376730129159,
+              0.24815816756335438,
+              518.9172793117277
+            ],
+            [
+              -0.24548037588987387,
+              -0.9702400012261341,
+              310.46424700138886
+            ],
+            [
+              7.432930313315158e-06,
+              4.065820512928019e-06,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9801,
+            "polygon_px": [
+              [
+                423.834,
+                228.057
+              ],
+              [
+                297.978,
+                195.5
+              ],
+              [
+                306.831,
+                160.688
+              ],
+              [
+                432.753,
+                192.907
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.7224,
+            "polygon_px": [
+              [
+                469.863,
+                204.189
+              ],
+              [
+                269.119,
+                152.799
+              ],
+              [
+                276.268,
+                124.705
+              ],
+              [
+                477.097,
+                175.661
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9995,
+            "polygon_px": [
+              [
+                474.054,
+                180.915
+              ],
+              [
+                392.383,
+                160.156
+              ],
+              [
+                399.158,
+                133.481
+              ],
+              [
+                480.861,
+                154.073
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.9783,
+            "polygon_px": [
+              [
+                347.496,
+                150.295
+              ],
+              [
+                274.036,
+                131.614
+              ],
+              [
+                281.394,
+                102.7
+              ],
+              [
+                354.886,
+                121.217
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.9201,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-17.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          356.79,
+          190.916
+        ],
+        "angle_deg": -2.572,
+        "angle_axis_deg": 177.428,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 334.618,
+          "short": 136.583
+        },
+        "corners_px": [
+          [
+            520.912,
+            267.449
+          ],
+          [
+            186.735,
+            250.837
+          ],
+          [
+            192.567,
+            115.979
+          ],
+          [
+            526.945,
+            129.399
+          ]
+        ],
+        "bbox_px": [
+          186.0,
+          115.0,
+          527.0,
+          268.0
+        ],
+        "mask_polygon_px": [
+          [
+            520.912,
+            267.449
+          ],
+          [
+            186.735,
+            250.837
+          ],
+          [
+            192.567,
+            115.979
+          ],
+          [
+            526.945,
+            129.399
+          ]
+        ],
+        "confidence": 0.9986,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 109,
+          "inliers": 77,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -1.0000278073714328,
+              0.04299793629739835,
+              540.6044836222763
+            ],
+            [
+              -0.042664825201084326,
+              -1.0005926746117517,
+              299.3765061740537
+            ],
+            [
+              4.327391228867864e-06,
+              -1.3710668357135913e-06,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.8507,
+            "polygon_px": [
+              [
+                429.894,
+                238.504
+              ],
+              [
+                301.908,
+                232.36
+              ],
+              [
+                303.439,
+                197.093
+              ],
+              [
+                431.444,
+                202.92
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.8071,
+            "polygon_px": [
+              [
+                471.939,
+                206.714
+              ],
+              [
+                263.95,
+                197.217
+              ],
+              [
+                265.244,
+                167.374
+              ],
+              [
+                473.26,
+                176.433
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9996,
+            "polygon_px": [
+              [
+                470.384,
+                182.591
+              ],
+              [
+                387.604,
+                178.95
+              ],
+              [
+                388.802,
+                151.427
+              ],
+              [
+                471.592,
+                154.91
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "20B3",
+            "corrected": true,
+            "confidence": 0.595,
+            "polygon_px": [
+              [
+                340.9,
+                179.043
+              ],
+              [
+                264.653,
+                175.678
+              ],
+              [
+                265.984,
+                144.98
+              ],
+              [
+                342.241,
+                148.181
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8131,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "20B3",
+              "corrected": "2CB3",
+              "distance": 1,
+              "similarity": 0.75
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-18.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          360.05,
+          242.341
+        ],
+        "angle_deg": 11.328,
+        "angle_axis_deg": 11.328,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 334.485,
+          "short": 136.579
+        },
+        "corners_px": [
+          [
+            537.554,
+            277.172
+          ],
+          [
+            209.575,
+            341.388
+          ],
+          [
+            182.559,
+            208.996
+          ],
+          [
+            510.511,
+            141.809
+          ]
+        ],
+        "bbox_px": [
+          182.0,
+          141.0,
+          538.0,
+          342.0
+        ],
+        "mask_polygon_px": [
+          [
+            537.554,
+            277.172
+          ],
+          [
+            209.575,
+            341.388
+          ],
+          [
+            182.559,
+            208.996
+          ],
+          [
+            510.511,
+            141.809
+          ]
+        ],
+        "confidence": 0.9988,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 122,
+          "inliers": 97,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.9807455949459736,
+              -0.20215129569751306,
+              564.1916435627838
+            ],
+            [
+              0.19742107779217064,
+              -0.9822213621803534,
+              303.35942876219724
+            ],
+            [
+              -1.8049255401520218e-06,
+              -1.2274556953687965e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.9759,
+            "polygon_px": [
+              [
+                443.048,
+                272.402
+              ],
+              [
+                316.784,
+                297.313
+              ],
+              [
+                309.649,
+                262.099
+              ],
+              [
+                435.911,
+                236.885
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "ALC3864NML-10",
+            "corrected": true,
+            "confidence": 0.635,
+            "polygon_px": [
+              [
+                484.034,
+                229.703
+              ],
+              [
+                272.324,
+                271.946
+              ],
+              [
+                266.375,
+                242.654
+              ],
+              [
+                478.081,
+                199.988
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9992,
+            "polygon_px": [
+              [
+                469.721,
+                207.633
+              ],
+              [
+                385.359,
+                224.602
+              ],
+              [
+                380.127,
+                198.646
+              ],
+              [
+                464.488,
+                181.528
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.9876,
+            "polygon_px": [
+              [
+                342.749,
+                236.237
+              ],
+              [
+                267.215,
+                251.416
+              ],
+              [
+                261.007,
+                220.854
+              ],
+              [
+                336.54,
+                205.518
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8994,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "ALC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-19.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          404.365,
+          293.423
+        ],
+        "angle_deg": 19.439,
+        "angle_axis_deg": 19.439,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 334.091,
+          "short": 135.981
+        },
+        "corners_px": [
+          [
+            584.418,
+            302.61
+          ],
+          [
+            269.725,
+            412.407
+          ],
+          [
+            223.961,
+            285.628
+          ],
+          [
+            539.356,
+            173.047
+          ]
+        ],
+        "bbox_px": [
+          223.0,
+          173.0,
+          585.0,
+          413.0
+        ],
+        "mask_polygon_px": [
+          [
+            584.418,
+            302.61
+          ],
+          [
+            269.725,
+            412.407
+          ],
+          [
+            223.961,
+            285.628
+          ],
+          [
+            539.356,
+            173.047
+          ]
+        ],
+        "confidence": 0.998,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 124,
+          "inliers": 97,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.9424305587589403,
+              -0.34481212962321006,
+              614.1093004919084
+            ],
+            [
+              0.32847756937817096,
+              -0.9435947158496678,
+              324.55471554413907
+            ],
+            [
+              -1.3043214315448345e-05,
+              -3.470146686234125e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANO",
+            "corrected": true,
+            "confidence": 0.9441,
+            "polygon_px": [
+              [
+                492.235,
+                312.582
+              ],
+              [
+                370.625,
+                355.162
+              ],
+              [
+                358.194,
+                320.286
+              ],
+              [
+                479.878,
+                277.413
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NMLA1Q",
+            "corrected": true,
+            "confidence": 0.3834,
+            "polygon_px": [
+              [
+                527.27,
+                264.819
+              ],
+              [
+                323.342,
+                336.623
+              ],
+              [
+                313.014,
+                307.772
+              ],
+              [
+                517.046,
+                235.56
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9875,
+            "polygon_px": [
+              [
+                509.115,
+                244.305
+              ],
+              [
+                430.387,
+                272.143
+              ],
+              [
+                421.673,
+                247.464
+              ],
+              [
+                500.435,
+                219.492
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2083",
+            "corrected": true,
+            "confidence": 0.9989,
+            "polygon_px": [
+              [
+                386.879,
+                290.248
+              ],
+              [
+                314.873,
+                315.699
+              ],
+              [
+                304.888,
+                287.808
+              ],
+              [
+                376.929,
+                262.218
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.8285,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "SANO",
+              "corrected": "SANYO",
+              "distance": 1,
+              "similarity": 0.8
+            },
+            {
+              "raw": "LC3864NMLA1Q",
+              "corrected": "LC3664NML-10",
+              "distance": 3,
+              "similarity": 0.75
+            },
+            {
+              "raw": "2083",
+              "corrected": "2CB3",
+              "distance": 2,
+              "similarity": 0.5
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    },
+    {
+      "image": "board-20.png",
+      "status": "ok",
+      "error": null,
+      "image_size": [
+        646,
+        492
+      ],
+      "chip": {
+        "center_px": [
+          327.19,
+          297.708
+        ],
+        "angle_deg": 27.853,
+        "angle_axis_deg": 27.853,
+        "angle_convention": "long edge, counter-clockwise in a y-up frame; angle_deg in [-90,90), angle_axis_deg in [0,180)",
+        "size_px": {
+          "long": 333.675,
+          "short": 136.423
+        },
+        "corners_px": [
+          [
+            507.054,
+            280.961
+          ],
+          [
+            211.439,
+            434.873
+          ],
+          [
+            147.928,
+            316.435
+          ],
+          [
+            442.338,
+            158.563
+          ]
+        ],
+        "bbox_px": [
+          147.0,
+          158.0,
+          508.0,
+          435.0
+        ],
+        "mask_polygon_px": [
+          [
+            507.054,
+            280.961
+          ],
+          [
+            211.439,
+            434.873
+          ],
+          [
+            147.928,
+            316.435
+          ],
+          [
+            442.338,
+            158.563
+          ]
+        ],
+        "confidence": 0.9991,
+        "method": "sift_reference_homography",
+        "diagnostics": {
+          "good_matches": 126,
+          "inliers": 99,
+          "template_bbox": [
+            120,
+            145,
+            500,
+            345
+          ],
+          "reference": "input\\board-01.png",
+          "homography": [
+            [
+              -0.8772332115561793,
+              -0.47670390144097113,
+              540.2272906436644
+            ],
+            [
+              0.47627893133087584,
+              -0.8896778806186608,
+              298.52422512837387
+            ],
+            [
+              2.3467878401226882e-05,
+              -1.7573488123209153e-05,
+              1.0
+            ]
+          ],
+          "canonical_size_px": [
+            360,
+            160
+          ]
+        },
+        "image_size": [
+          646,
+          492
+        ]
+      },
+      "text": {
+        "full_text": "SANYO\nLC3664NML-10\nJAPAN\n2CB3",
+        "lines": [
+          {
+            "text": "SANYO",
+            "raw_text": "SANYO",
+            "corrected": false,
+            "confidence": 0.7967,
+            "polygon_px": [
+              [
+                415.527,
+                305.293
+              ],
+              [
+                300.511,
+                365.445
+              ],
+              [
+                282.438,
+                331.585
+              ],
+              [
+                397.322,
+                270.997
+              ]
+            ]
+          },
+          {
+            "text": "LC3664NML-10",
+            "raw_text": "LC3864NML-10",
+            "corrected": true,
+            "confidence": 0.5803,
+            "polygon_px": [
+              [
+                442.444,
+                252.103
+              ],
+              [
+                250.573,
+                353.197
+              ],
+              [
+                236.131,
+                326.183
+              ],
+              [
+                427.825,
+                224.506
+              ]
+            ]
+          },
+          {
+            "text": "JAPAN",
+            "raw_text": "JAPAN",
+            "corrected": false,
+            "confidence": 0.9903,
+            "polygon_px": [
+              [
+                421.649,
+                234.652
+              ],
+              [
+                345.938,
+                274.758
+              ],
+              [
+                333.407,
+                251.197
+              ],
+              [
+                409.057,
+                210.893
+              ]
+            ]
+          },
+          {
+            "text": "2CB3",
+            "raw_text": "2C83",
+            "corrected": true,
+            "confidence": 0.5227,
+            "polygon_px": [
+              [
+                306.554,
+                297.318
+              ],
+              [
+                239.441,
+                332.859
+              ],
+              [
+                225.791,
+                307.326
+              ],
+              [
+                292.846,
+                271.593
+              ]
+            ]
+          }
+        ],
+        "metadata": {
+          "enabled": true,
+          "raw_detections": 4,
+          "kept_detections": 4,
+          "mean_confidence": 0.7225,
+          "line_bands": [
+            [
+              0.18,
+              0.41
+            ],
+            [
+              0.4,
+              0.61
+            ],
+            [
+              0.6,
+              0.8
+            ]
+          ],
+          "corrections": [
+            {
+              "raw": "LC3864NML-10",
+              "corrected": "LC3664NML-10",
+              "distance": 1,
+              "similarity": 0.9167
+            },
+            {
+              "raw": "2C83",
+              "corrected": "2CB3",
+              "distance": 1,
+              "similarity": 0.75
+            }
+          ],
+          "scale": 4.0,
+          "border_px": 24.0,
+          "inverted": 1.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+seed: 42
+
+paths:
+  input_dir: input
+  output_dir: outputs
+  weights_dir: weights
+
+reference:
+  # The reference image and template are part of the dataset.  The four body
+  # corners were measured on board-01 in original pixel coordinates.
+  image: input/board-01.png
+  template_bbox: [120, 145, 500, 345]   # x0, y0, x1, y1
+  body_corners_px:
+    - [141.0, 176.0]   # p0: reference top-left
+    - [475.0, 178.0]   # p1: reference top-right
+    - [475.0, 313.0]   # p2: reference bottom-right
+    - [141.0, 314.0]   # p3: reference bottom-left
+
+chip:
+  matcher:
+    nfeatures: 3000
+    contrast_threshold: 0.015
+    ratio_test: 0.72
+    ransac_reproj_px: 3.0
+    min_good_matches: 8
+    min_inliers: 12
+    min_inlier_ratio: 0.20
+    min_area_ratio: 0.65
+    max_area_ratio: 1.35
+    min_edge_ratio: 0.85
+    max_edge_ratio: 1.15
+  fallback:
+    enabled: true
+    min_area_ratio: 0.02
+    max_area_ratio: 0.30
+  canonical:
+    width: 360
+    height: 160
+
+ocr:
+  enabled: true
+  languages: [en]
+  scale: 4
+  border_px: 24
+  clahe_clip: 2.5
+  clahe_grid: 8
+  allowlist: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789- ."
+  min_confidence: 0.10
+  min_box_height_px: 4
+  # Text is light grey on a dark package.  Inverting makes it dark-on-light,
+  # which is the domain most generic OCR models were trained on.
+  invert: true
+  paragraph: false
+  use_gpu: false
+  model_storage_dir: weights/easyocr
+  download_enabled: true
+  # Relative vertical bands in the rectified 360x160 chip crop.  The three
+  # marking rows are geometrically stable after rectification, so reading
+  # them separately prevents EasyOCR from merging adjacent rows.
+  line_bands:
+    - [0.18, 0.41]
+    - [0.40, 0.61]
+    - [0.60, 0.80]
+  # Course dataset: the package marking is fixed.  The lexicon is optional and
+  # never silently invents a result when OCR is far from every entry.
+  lexicon:
+    - SANYO
+    - LC3664NML-10
+    - JAPAN
+    - 2CB3
+  lexicon_max_distance: 2
+  lexicon_min_similarity: 0.45
+
+outputs:
+  save_overlay: true
+  save_mask: true
+  save_canonical: true
+  save_ocr_input: true
